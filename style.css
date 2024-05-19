@@ -1,0 +1,1555 @@
+/** @format */
+
+@-webkit-keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spiral__container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c8cff;
+  }
+  
+  .spiral__circle {
+    min-width: 7px;
+    min-height: 7px;
+    box-sizing: border-box;
+    padding: 3.5px;
+    border-radius: 100%;
+    -webkit-animation: spin 60s infinite linear;
+    animation: spin 60s infinite linear;
+  }
+  
+  .spiral__container > .spiral__circle {
+    border-top: 7px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 7px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .spiral__container > .spiral__circle > .spiral__circle {
+    border-top: 6.86px solid rgba(0, 0, 0, 0.32);
+    border-bottom: 6.86px solid rgba(0, 0, 0, 0.32);
+  }
+  
+  .spiral__container > .spiral__circle > .spiral__circle > .spiral__circle {
+    border-top: 6.72px solid rgba(255, 255, 255, 0.34);
+    border-bottom: 6.72px solid rgba(255, 255, 255, 0.34);
+  }
+  
+  .spiral__container > .spiral__circle > .spiral__circle > .spiral__circle > .spiral__circle {
+    border-top: 6.58px solid rgba(0, 0, 0, 0.36);
+    border-bottom: 6.58px solid rgba(0, 0, 0, 0.36);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 6.44px solid rgba(255, 255, 255, 0.38);
+    border-bottom: 6.44px solid rgba(255, 255, 255, 0.38);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 6.3px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 6.3px solid rgba(0, 0, 0, 0.4);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 6.16px solid rgba(255, 255, 255, 0.42);
+    border-bottom: 6.16px solid rgba(255, 255, 255, 0.42);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 6.02px solid rgba(0, 0, 0, 0.44);
+    border-bottom: 6.02px solid rgba(0, 0, 0, 0.44);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.88px solid rgba(255, 255, 255, 0.46);
+    border-bottom: 5.88px solid rgba(255, 255, 255, 0.46);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.74px solid rgba(0, 0, 0, 0.48);
+    border-bottom: 5.74px solid rgba(0, 0, 0, 0.48);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.6px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 5.6px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.46px solid rgba(0, 0, 0, 0.52);
+    border-bottom: 5.46px solid rgba(0, 0, 0, 0.52);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.32px solid rgba(255, 255, 255, 0.54);
+    border-bottom: 5.32px solid rgba(255, 255, 255, 0.54);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.18px solid rgba(0, 0, 0, 0.56);
+    border-bottom: 5.18px solid rgba(0, 0, 0, 0.56);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 5.04px solid rgba(255, 255, 255, 0.58);
+    border-bottom: 5.04px solid rgba(255, 255, 255, 0.58);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.9px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 4.9px solid rgba(0, 0, 0, 0.6);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.76px solid rgba(255, 255, 255, 0.62);
+    border-bottom: 4.76px solid rgba(255, 255, 255, 0.62);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.62px solid rgba(0, 0, 0, 0.64);
+    border-bottom: 4.62px solid rgba(0, 0, 0, 0.64);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.48px solid rgba(255, 255, 255, 0.66);
+    border-bottom: 4.48px solid rgba(255, 255, 255, 0.66);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.34px solid rgba(0, 0, 0, 0.68);
+    border-bottom: 4.34px solid rgba(0, 0, 0, 0.68);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.2px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 4.2px solid rgba(255, 255, 255, 0.7);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 4.06px solid rgba(0, 0, 0, 0.72);
+    border-bottom: 4.06px solid rgba(0, 0, 0, 0.72);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.92px solid rgba(255, 255, 255, 0.74);
+    border-bottom: 3.92px solid rgba(255, 255, 255, 0.74);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.78px solid rgba(0, 0, 0, 0.76);
+    border-bottom: 3.78px solid rgba(0, 0, 0, 0.76);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.64px solid rgba(255, 255, 255, 0.78);
+    border-bottom: 3.64px solid rgba(255, 255, 255, 0.78);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 3.5px solid rgba(0, 0, 0, 0.8);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.36px solid rgba(255, 255, 255, 0.82);
+    border-bottom: 3.36px solid rgba(255, 255, 255, 0.82);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.22px solid rgba(0, 0, 0, 0.84);
+    border-bottom: 3.22px solid rgba(0, 0, 0, 0.84);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 3.08px solid rgba(255, 255, 255, 0.86);
+    border-bottom: 3.08px solid rgba(255, 255, 255, 0.86);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.94px solid rgba(0, 0, 0, 0.88);
+    border-bottom: 2.94px solid rgba(0, 0, 0, 0.88);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.8px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 2.8px solid rgba(255, 255, 255, 0.9);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.66px solid rgba(0, 0, 0, 0.92);
+    border-bottom: 2.66px solid rgba(0, 0, 0, 0.92);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.52px solid rgba(255, 255, 255, 0.94);
+    border-bottom: 2.52px solid rgba(255, 255, 255, 0.94);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.38px solid rgba(0, 0, 0, 0.96);
+    border-bottom: 2.38px solid rgba(0, 0, 0, 0.96);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.24px solid rgba(255, 255, 255, 0.98);
+    border-bottom: 2.24px solid rgba(255, 255, 255, 0.98);
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 2.1px solid black;
+    border-bottom: 2.1px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.96px solid white;
+    border-bottom: 1.96px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.82px solid black;
+    border-bottom: 1.82px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.68px solid white;
+    border-bottom: 1.68px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.54px solid black;
+    border-bottom: 1.54px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.4px solid white;
+    border-bottom: 1.4px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.26px solid black;
+    border-bottom: 1.26px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 1.12px solid white;
+    border-bottom: 1.12px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.98px solid black;
+    border-bottom: 0.98px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.84px solid white;
+    border-bottom: 0.84px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.7px solid black;
+    border-bottom: 0.7px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.56px solid white;
+    border-bottom: 0.56px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.42px solid black;
+    border-bottom: 0.42px solid black;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.28px solid white;
+    border-bottom: 0.28px solid white;
+  }
+  
+  .spiral__container
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle
+    > .spiral__circle {
+    border-top: 0.14px solid black;
+    border-bottom: 0.14px solid black;
+  }
