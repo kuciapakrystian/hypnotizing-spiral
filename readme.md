@@ -1,15 +1,15 @@
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="75"/>
 
 # Hypnotizing spiral
-Hipnotizing spiral made with html and scss
+Hipnotizing spiral made with html and sass
 ## Specifications:
-I wanted to make something mesmerizing based only on html and scss
-<img src="outout1.png" title="spiral" alt="Git" width="800" height="400"/>
+I wanted to make something mesmerizing based only on html and sass
+<img src="hipnotizing-spiral/image/outout1.png" title="spiral" alt="Git" width="800" height="400"/>
  
 
 ## Technologies Used
 - HTML5: Used for structuring the web pages and content.
-- SCSS: Used for styling and layout of the website.
+- SASS: Used for styling and layout of the website.
 - GitHub Pages: Hosted the website on GitHub Pages for easy deployment and accessibility.
 
 ## Languages and Tools:
