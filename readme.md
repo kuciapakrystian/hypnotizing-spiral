@@ -7,7 +7,7 @@ I wanted to make something mesmerizing based only on html and sass
 <img src="image/output 1.png" title="spiral" alt="Git" width="800" height="400"/>
  
 
-## Technologies Used
+## Technologies Used:
 - HTML5: Used for structuring the web pages and content.
 - CSS: Used for styling and layout of the website.
 - GitHub Pages: Hosted the website on GitHub Pages for easy deployment and accessibility.
